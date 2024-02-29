@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BTS online store</title>
+    <link rel="icon" href="/IMAGE/BTS Wallpaper1.png">
+    <style>
+        .iconsize {
+            height: 48px;
+            width: 100px;
+            float: left;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #e9e9e9;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Style the "active" element to highlight the current page */
+        .topnav a.active {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        /* Style the search box inside the navigation bar */
+        .topnav input[type=text] {
+            float: right;
+            padding: 6px;
+            border: none;
+            margin-top: 8px;
+            margin-right: 16px;
+            font-size: 17px;
+        }
+
+        /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+        @media screen and (max-width: 600px) {
+
+            .topnav a,
+            .topnav input[type=text] {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 200%;
+                margin: 0;
+                padding: 14px;
+            }
+
+            .topnav input[type=text] {
+                border: 1px solid #ccc;
+            }
+        }
+        .menusize {
+            width: 20px;
+            height: 20px;
+            margin: 1px;
+            float: left;
+            text-align: left;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            margin-left: -10px;
+        }
+        li{
+            font-size: small;
+            float: left;
+            list-style-type: none;
+            padding: 0px;
+            margin: 1px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <br>
+    <img src="/IMAGE/BTS Wallpaper1.png" id="icon" class="iconsize" aria-label="BTS.in"></img>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a> 
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search" value="search">
+            </form>
+        </div>
+    </div>
+    <div>
+    <img src="/IMAGE/menu icon.png" id="icon" class="menusize">
+        <ul>
+            <li><a href="">ALL |</a></li>
+            <li><a href="">SELL |</a></li>
+            <li><a href="">BTS MINI PHOTOS |</a></li>
+            <li><a href="">BEST SELLERS |</a></li>
+            <li><a href="">MOBLIE CASE |</a></li>
+            <li><a href="">TODAY'S DEALS |</a></li>
+            <li><a href="">CUSTOMER SERVISE |</a></li>
+            <li><a href="">NEW RELEASES |</a></li>
+        </ul>
+    </div>
+</body>        
+
+</html>
